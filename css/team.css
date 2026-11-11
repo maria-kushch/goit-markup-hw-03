@@ -14,6 +14,7 @@
 
 .teambg {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .images-team li {
@@ -32,6 +33,7 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin: 32px 16px 8px 16px;
 }
 
 .ourteam-p {
@@ -41,4 +43,35 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin: 0px 16px 32px 16px;
+}
+
+.images-team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  max-width: 1128px;
+  height: 380px;
+  margin: 72px auto 0;
+  padding: 0;
+}
+
+.team-card {
+  border-radius: 0 0 4px 4px;
+  width: 264px;
+  height: 380px;
+  width: 264px;
+  height: 380px;
+}
+
+.containerteam {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  padding: 32px 16px;
+  width: 264px;
+  height: 120px;
 }

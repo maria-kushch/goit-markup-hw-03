@@ -24,26 +24,28 @@
   </head>
   <body>
     <header id="header">
-      <a class="logo" href="./index.html"
-        >Web<span class="studio">Studio</span></a
-      >
-      <nav class="navigation">
-        <ul class="ul-features">
-          <li><a class="featuresnav" href="#features">Features</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-        </ul>
-      </nav>
-      <address class="address">
-        <ul class="ul-address">
-          <li class="li-address">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="li-address">
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
-      </address>
+      <div class="container-header">
+        <a class="logo" href="./index.html"
+          >Web<span class="studio">Studio</span></a
+        >
+        <nav class="navigation">
+          <ul class="ul-features">
+            <li><a class="featuresnav" href="#features">Features</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+          </ul>
+        </nav>
+        <address class="address">
+          <ul class="ul-address">
+            <li class="li-address">
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="li-address">
+              <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <!-- Hero -->
@@ -53,11 +55,11 @@
       </section>
       <!-- Features -->
       <section id="features">
-        <h2>Our Features</h2>
+        <h2 class="ishidden">Our Features</h2>
         <!-- h2 will be hidden trough css - validator gave me an error dur to this -->
         <ul class="ulfeatures">
           <li>
-            <h3>Strategy</h3>
+            <h3 cl>Strategy</h3>
             <p>
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
@@ -90,45 +92,53 @@
       <section id="team" class="teambg">
         <h2 class="team-title">Our Team</h2>
         <ul class="images-team">
-          <li>
+          <li class="team-card">
             <img
               src="./images/team-1.jpg"
               alt="Mark Guerrero"
               width="264"
               height="260"
             />
-            <h3 class="ourteam-title">Mark Guerrero</h3>
-            <p class="ourteam-p">Product Designer</p>
+            <div class="containerteam">
+              <h3 class="ourteam-title">Mark Guerrero</h3>
+              <p class="ourteam-p">Product Designer</p>
+            </div>
           </li>
-          <li>
+          <li class="team-card">
             <img
               src="./images/team-2.jpg"
               alt="Tom Ford"
               width="264"
               height="260"
             />
-            <h3 class="ourteam-title">Tom Ford</h3>
-            <p class="ourteam-p">Frontend Developer</p>
+            <div class="containerteam">
+              <h3 class="ourteam-title">Tom Ford</h3>
+              <p class="ourteam-p">Frontend Developer</p>
+            </div>
           </li>
-          <li>
+          <li class="team-card">
             <img
               src="./images/team-3.jpg"
               alt="Camila Garcia"
               width="264"
               height="260"
             />
-            <h3 class="ourteam-title">Camila Garcia</h3>
-            <p class="ourteam-p">Marketing</p>
+            <div class="containerteam">
+              <h3 class="ourteam-title">Camila Garcia</h3>
+              <p class="ourteam-p">Marketing</p>
+            </div>
           </li>
-          <li>
+          <li class="team-card">
             <img
               src="./images/team-4.jpg"
               alt="Daniel Wilson"
               width="264"
               height="260"
             />
-            <h3 class="ourteam-title">Daniel Wilson</h3>
-            <p class="ourteam-p">UI Designer</p>
+            <div class="containerteam">
+              <h3 class="ourteam-title">Daniel Wilson</h3>
+              <p class="ourteam-p">UI Designer</p>
+            </div>
           </li>
         </ul>
       </section>
@@ -136,77 +146,91 @@
       <section id="portfolio">
         <h2 class="portfolio-titleh2">Our Portfolio</h2>
         <ul class="images-portfolio">
-          <li>
+          <li class="project-card">
             <img
               src="./images/Media-1.jpg"
               alt="Cashless Payment Image"
               width="360"
               height="300"
             />
-            <h3 class="ourportfolio-title">Banking App</h3>
-            <p class="ourportfolio-p">App</p>
+            <div class="portfolio-block">
+              <h3 class="ourportfolio-title">Banking App</h3>
+              <p class="ourportfolio-p">App</p>
+            </div>
           </li>
-          <li>
+          <li class="project-card">
             <img
               src="./images/Media-2.jpg"
               alt="Banking App Image"
               width="360"
               height="300"
             />
-            <h3 class="ourportfolio-title">Cashless Payment</h3>
-            <p class="ourportfolio-p">Marketing</p>
+            <div class="portfolio-block">
+              <h3 class="ourportfolio-title">Cashless Payment</h3>
+              <p class="ourportfolio-p">Marketing</p>
+            </div>
           </li>
-          <li>
+          <li class="project-card">
             <img
               src="./images/Media-3.jpg"
               alt="Meditation App Image"
               width="360"
               height="300"
             />
-            <h3 class="ourportfolio-title">Meditation App</h3>
-            <p class="ourportfolio-p">App</p>
+            <div class="portfolio-block">
+              <h3 class="ourportfolio-title">Meditation App</h3>
+              <p class="ourportfolio-p">App</p>
+            </div>
           </li>
-          <li>
+          <li class="project-card">
             <img
               src="./images/Media-4.jpg"
               alt="Taxi Service Image"
               width="360"
               height="300"
             />
-            <h3 class="ourportfolio-title">Taxi Service</h3>
-            <p class="ourportfolio-p">Marketing</p>
+            <div class="portfolio-block">
+              <h3 class="ourportfolio-title">Taxi Service</h3>
+              <p class="ourportfolio-p">Marketing</p>
+            </div>
           </li>
-          <li>
+          <li class="project-card">
             <img
               src="./images/Media-5.jpg"
               alt="Screen Illustrations Image"
               width="360"
               height="300"
             />
-            <h3 class="ourportfolio-title">Screen Illustrations</h3>
-            <p class="ourportfolio-p">Design</p>
+            <div class="portfolio-block">
+              <h3 class="ourportfolio-title">Screen Illustrations</h3>
+              <p class="ourportfolio-p">Design</p>
+            </div>
           </li>
-          <li>
+          <li class="project-card">
             <img
               src="./images/Media-6.jpg"
               alt="Online Courses Image"
               width="360"
               height="300"
             />
-            <h3 class="ourportfolio-title">Online Courses</h3>
-            <p class="ourportfolio-p">Marketing</p>
+            <div class="portfolio-block">
+              <h3 class="ourportfolio-title">Online Courses</h3>
+              <p class="ourportfolio-p">Marketing</p>
+            </div>
           </li>
         </ul>
       </section>
     </main>
     <footer id="footer" class="footer">
-      <a class="logo" href="./index.html"
-        >Web<span class="studio-white">Studio</span></a
-      >
-      <p>
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="footer-block">
+        <a class="logo" href="./index.html"
+          >Web<span class="studio-white">Studio</span></a
+        >
+        <p>
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>

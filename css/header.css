@@ -56,3 +56,28 @@
 .ul-features {
   list-style: none;
 }
+
+.container-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-bottom: 1px solid #e7e9fc;
+  width: 1440px;
+  height: 72px;
+}
+
+.ul-features {
+  display: flex;
+  gap: 40px;
+  margin-right: 340px;
+}
+
+.ul-address {
+  display: flex;
+  gap: 40px;
+}
+
+.logo {
+  margin-right: 76px;
+}

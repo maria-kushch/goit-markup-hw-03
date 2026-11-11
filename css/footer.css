@@ -16,3 +16,16 @@
 .footer p {
   color: #f4f4fd;
 }
+
+#footer {
+  padding: 100px 0;
+  height: 312px;
+}
+
+.footer-block {
+  padding: 0 15px;
+  width: 1158px;
+  height: 112px;
+  max-width: 264px;
+  margin-left: 156px;
+}
