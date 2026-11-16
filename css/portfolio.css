@@ -1,4 +1,4 @@
-#portfolio {
+.portfolio {
   padding: 120px 0;
 }
 
@@ -33,7 +33,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 48px;
   max-width: 1128px;
   margin: 72px auto 0;
   padding: 0;

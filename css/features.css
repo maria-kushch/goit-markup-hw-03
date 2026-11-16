@@ -1,15 +1,9 @@
 .features {
   padding: 120px 0;
-  height: 344px;
 }
 
 .container-features {
   list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  gap: 24px;
   padding: 0 15px;
 }
 
@@ -19,4 +13,12 @@
 
 .container-features p {
   width: 264px;
+}
+
+.ulfeatures {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
 }
