@@ -34,4 +34,16 @@ p {
 ul,
 ol {
   margin: 0%;
+  padding: 0%;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.sr-only {
+  display: none;
 }
