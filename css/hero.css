@@ -41,14 +41,13 @@
 .button-hero:focus {
   background-color: #404bbf;
 }
-#hero {
+.hero {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
   gap: 0;
   padding: 188px 0;
-  height: 600px;
 }
 
 .h1-hero {
