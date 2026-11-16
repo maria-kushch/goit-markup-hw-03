@@ -34,6 +34,7 @@
   color: #ffffff;
 
   cursor: pointer;
+  margin: 0 auto;
 }
 
 .button-hero:hover,
@@ -54,4 +55,6 @@
   margin-bottom: 48px;
   flex-wrap: wrap;
   width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
