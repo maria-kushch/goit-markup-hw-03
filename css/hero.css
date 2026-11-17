@@ -16,6 +16,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  margin: 0 auto;
 
   min-width: 169px;
   padding: 16px 32px;
@@ -34,7 +35,6 @@
   color: #ffffff;
 
   cursor: pointer;
-  margin: 0 auto;
 }
 
 .button-hero:hover,
@@ -57,4 +57,11 @@
   width: 496px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.navigation a,
+.address a {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
