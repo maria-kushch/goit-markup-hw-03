@@ -54,7 +54,7 @@
   display: flex;
   margin-bottom: 48px;
   flex-wrap: wrap;
-  width: 496px;
+  max-width: 496px;
   margin-left: auto;
   margin-right: auto;
 }

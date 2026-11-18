@@ -28,6 +28,8 @@
   color: #2e2f42;
   text-decoration: none;
   display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .navigation a:hover,
@@ -48,6 +50,8 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   font-style: normal;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .ul-address {
